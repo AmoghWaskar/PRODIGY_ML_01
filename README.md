@@ -1,24 +1,24 @@
 # PRODIGY_ML_01
 Implement a linear regression model to predict the prices of houses based on their square footage and the number of bedrooms and bathrooms.   Dataset : - https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
 
-# 🏠 House Price Prediction using Linear Regression
+# House Price Prediction using Linear Regression
 
-## 📌 Project Overview
-This project implements an end-to-end **Linear Regression** model to predict house prices using **all available features** from the Kaggle *House Prices – Advanced Regression Techniques* dataset.  
-The workflow includes data preprocessing, feature encoding, model training, evaluation, visualization, and model persistence.
-
----
-
-## 📊 Dataset
-- **Source:** Kaggle – House Prices: Advanced Regression Techniques  
-- **Link:** https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data  
-- **Files Used:**
-  - `train.csv` – training dataset with target variable
-  - `test.csv` – test dataset for predictions
+## Project Overview
+This project implements an end-to-end Linear Regression model to predict house prices using all available features from the Kaggle *House Prices – Advanced Regression Techniques* dataset.  
+The workflow covers data preprocessing, feature encoding, model training, evaluation, visualization, and model saving.
 
 ---
 
-## ⚙️ Tech Stack
+## Dataset
+- Source: Kaggle – House Prices: Advanced Regression Techniques  
+- Link: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data  
+- Files:
+  - train.csv – training dataset
+  - test.csv – test dataset
+
+---
+
+## Tech Stack
 - Python
 - Pandas, NumPy
 - Scikit-learn
@@ -27,53 +27,49 @@ The workflow includes data preprocessing, feature encoding, model training, eval
 
 ---
 
-## 🧠 Machine Learning Approach
-
-### ✔ Model Used
-- **Linear Regression**
-
-### ✔ Features
-- All numerical and categorical features (79 total)
-
-### ✔ Preprocessing
-- Missing value handling (median / most frequent)
-- One-Hot Encoding for categorical variables
-- Feature scaling using StandardScaler
-- Pipeline-based implementation to avoid data leakage
+## Machine Learning Approach
+- Model: Linear Regression
+- Features: All numerical and categorical features (79 total)
+- Preprocessing:
+  - Missing value handling (median / most frequent)
+  - One-hot encoding for categorical features
+  - Feature scaling using StandardScaler
+  - Pipeline-based implementation to avoid data leakage
 
 ---
 
-## 🔁 Project Workflow
-1. Data loading and exploration
-2. Feature-target separation
-3. Identification of numerical and categorical columns
-4. Data preprocessing using pipelines
-5. Model training using Linear Regression
-6. Model evaluation using RMSE and R² score
-7. Visualization of results
-8. Saving the trained model using Joblib
+## Workflow
+1. Load and explore the dataset
+2. Separate features and target variable
+3. Identify numerical and categorical columns
+4. Apply preprocessing using pipelines
+5. Train Linear Regression model
+6. Evaluate model using RMSE and R² score
+7. Visualize predictions and feature relationships
+8. Save trained model using Joblib
 
 ---
 
-## 📈 Model Evaluation
-- **Metric Used:**  
-  - Root Mean Squared Error (RMSE)  
+## Model Evaluation
+- Metrics used:
+  - Root Mean Squared Error (RMSE)
   - R² Score
 
-> Note: Linear Regression provides a baseline model. More complex models may improve performance.
+Note: Linear Regression is used as a baseline model for this dataset.
 
 ---
 
-## 🖼️ Visualizations
-Example outputs generated during EDA and evaluation:
+## Visualizations
+Key visualizations generated during analysis:
+- Actual vs Predicted house prices
+- Correlation heatmap
+- Feature distributions
 
-- Actual vs Predicted House Prices
-- Correlation Heatmap
-- Feature Distributions
-
-Images are stored in the `visuals/` directory.
+All images are stored in the `visuals/` directory.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+oject Structure
 
